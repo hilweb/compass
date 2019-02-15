@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+	<head>
+		<title>After Hours Support Chat</title>
+
+		
+		<link rel="stylesheet" href="build/conversational-form-docs.min.css?v=1.0.0">
+		
+		<!-- file to overwrite Conversational Form styles -->
+		<link rel="stylesheet" href="build/styles/cf/cf-theming.css?v=1.0.0">
+
+		<link rel="icon" href="images/favicon.ico">
+		
+	</head>
+
+	<body>
+		
+			 <script type="text/javascript" src="build/conversational-form.min.js" crossorigin></script>
+		
+		
+		<!-- Load Conversational Form (v0.9.6) -->
+		 <script type="text/javascript" src="https://cf-4053.kxcdn.com/conversational-form/0.9.6/conversational-form.min.js?v=1.0.0" crossorigin></script>
+		<!-- Load docs -->
+		 <script src="build/conversational-form-docs.min.js?v=1.0.0"></script>  
+
+		<main id="conversational-form-docs" class="content">
+			<menu id="small-screen-menu">
+				<h2>Online Support Chat</h2>
+
+				<div class="switch-btn" style="display: none;">
+					<label class="switch">
+						<input type="checkbox" onclick="window.conversationalFormDocs.toggleConversation(event)">
+						<div class="slider round"></div>
+					</label>
+				</div>
+
+				<div class="hamburger-btn" onclick="window.conversationalFormDocs.toggleMenuState(event)">
+					<svg viewBox="0 0 29 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+							<g transform="translate(-325.000000, -87.000000)" stroke="#FFFFFF" stroke-width="2">
+								<g transform="translate(325.000000, 87.000000)">
+									<path d="M27.4802431,7 L1.23827993,7"></path>
+									<path d="M27.4802431,1 L1.23827993,1"></path>
+									<path d="M27.4802431,13 L1.23827993,13"></path>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</div>
+			</menu>
+
+			<div class="switch-btn" id="cf-toggle-btn"  data-label="Enable Conversational Form" data-label-toggled="Disable Conversational Form">
+				<label class="switch">
+					<input type="checkbox" onclick="window.conversationalFormDocs.toggleConversation(event)">
+					<div class="slider round"></div>
+				</label>
+			</div>
+
+			<section id="info" role="info">
+				<div class="close-btn" onclick="window.conversationalFormDocs.toggleMenuState()">
+					<svg viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+							<g transform="translate(-328.000000, -83.000000)" stroke="#FFFFFF" stroke-width="2">
+								<g id="close" transform="translate(329.000000, 84.000000)">
+									<path d="M19.6371966,19.2779351 L1.08132646,0.722064927"></path>
+									<path d="M19.4923318,0.722064927 L0.936461672,19.2779351"></path>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</div>
+
+			
+
+				<article>
+					<h1 id="writer">
+						Connecting with our people 24/7
+					</h1>
+					<h2>
+						Our online support chat is an extension of our service center team,  through it we are standing by to provide a high-touch, personalized experience to answer general questions about your account or your benefits.
+	
+					</h2>
+					
+					<footer>
+					
+											</footer>
+				</article>
+			</section>
+
+			<section id="form" role="form">
+				<form id="cf-form" method="post" action="https://api.formbucket.com/f/buk_YR7xGobkQQBP0bmXAWXtxn1B">
+<!--					<fieldset>
+						<label for="name">What's your name?</label>
+						<input required cf-questions="Welcome to the online chat support, Drew Brown. What can I do to help you today?
+						 " type="text" class="form-control" name="name" id="name">
+					</fieldset>-->
+
+					<fieldset>
+						<label for="occupation">Contextual</label>
+						<div class="radio">
+						<label>
+							<input cf-questions="Welcome to the online chat support, Drew Brown.
+							To best serve you, what kind of question do you have?" type="radio" name="occupation" id="occupation-1" value="developer">
+							Account Issue
+						</label>
+						</div>
+						<div class="radio">
+						<label>
+							<input type="radio" name="occupation" id="occupation-2" value="designer">
+							Address Update
+						</label>
+						</div>
+						<div class="radio">
+						<label>
+							<input type="radio" name="occupation" id="occupation-3" value="curious-mind">
+							Benefit Question
+						</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="occupation" id="occupation-2" value="lost">
+								Other
+							</label>
+						</div>
+					</fieldset>
+
+				<!--	<fieldset>
+						<label for="company">Questions</label>
+						<input cf-questions="Can you confirm your last four of your SSN?" type="text" class="form-control" name="company" id="company">
+					</fieldset>-->
+					
+					<fieldset>
+						<label for="company2">Questions</label>
+						<input cf-questions="Thank you. How can I help?" type="text" class="form-control" name="company" id="company">
+					</fieldset>
+
+					<fieldset>
+						<label for="company2">Questions</label>
+						<input cf-questions="You will need to provide a valid marriage certificate for you and your spouse. This can be uploaded directly to the site during enrollment. 
+						Is there anything else I can answer?
+						" type="text" class="form-control" name="company" id="company2">
+					</fieldset>
+
+						
+						<fieldset>
+							<label for="company3">Questions</label>
+							<input cf-questions="I see that you are enrolled in the CIGNA SureFit Houston Network plan. Your deductible for this plan is $0, the copay for primary care office visits is $30, and the annual out-of-pocket maximum is $4,800 individual/$9,600 family.
+							
+							Does that help?" type="text" class="form-control" name="company" id="company3">
+						</fieldset>
+
+
+						<fieldset>
+							<label for="company3">Questions</label>
+							<input cf-questions="Thank you for contacting the online support. We are available to help with account and general benefit quesitons. 
+							Have a GREAT day, Drew!" type="text" class="form-control" name="company" id="company3">
+						</fieldset>
+
+
+		<!--			<fieldset>
+						<label for="opinion">What can I do to help you today?</label>
+						<select cf-questions="What can I do to help you today?" name="opinion" id="opinion" class="form-control">
+							<option></option>
+							<option>I am new</option>
+							<option>Yes, but I forgot my username</option>
+							<option>Yes, but I forgot my password</option>
+						</select>
+					</fieldset>-->
+
+				<!--	<fieldset>
+						<label for="email">Email</label>
+						<input pattern=".+\@.+\..+" cf-error="E-mail not correct" cf-questions="If you want, I can reset your information and email you access. Please provide me the email on record." type="email" class="form-control" name="email" id="your-email">
+					</fieldset>
+
+					<fieldset style="display: none;">
+						<label for="thats-all">Confirmed</label>
+						<select cf-questions="Your email was confirmed. Your reset message was sent to your inbox. It may take up to 10 mins for you to recieve it. Please check your junk mail too if it doesn't come." name="submit-form" id="submit-form" class="form-control">
+							<option></option>
+						</select>
+					</fieldset>
+
+					<fieldset style="display: none;">
+						<label for="thats-all">Want to start over?</label>
+						<select cf-questions="Want to start over?" name="repeat" id="repeat" class="form-control">
+							<option></option>
+							<option>Yes, let's go again</option>
+						</select>
+					</fieldset>-->
+
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</section>
+
+			<section id="cf-context" role="cf-context" cf-context>
+				
+			</section>
+		</main>
+
+		
+
+	</body>
+
+</html>
